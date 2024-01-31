@@ -7,3 +7,7 @@ export const imageUrlToBase64 = async (url) => {
 
   return imgDataUrl;
 };
+
+// Contains a helper function for pre-loading an image from its URL. 
+// This allows the SSR app to download the image on the server, 
+// then include it as part of the HTML code that it passes to the browser for an "instant load" effect.

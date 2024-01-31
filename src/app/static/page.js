@@ -1,4 +1,7 @@
+// next.js by default is a server based component. 
 "use client";
+// else by default client based 
+
 
 import styles from "../page.module.css";
 import { useEffect, useState } from "react";
